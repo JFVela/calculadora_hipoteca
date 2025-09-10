@@ -41,7 +41,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={customTheme}>
-      <Container fixed>
+      <Container>
         <Caja>
           <MortgageForm
             importe={importe}
