@@ -25,6 +25,10 @@ export const Banner = styled.div`
   display: flex;
   align-items: center;
   width: 50%;
+  @media (max-width: 600px) {
+    width: auto;
+    border-radius: 15px;
+}
 `;
 
 export const Titulo = styled.h1`
